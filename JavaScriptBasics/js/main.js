@@ -1,12 +1,6 @@
 'use strict';
 
-// console.log(150*140);
-// console.log(150*140);
+const score = 80;
 
-const price = 150;
-// 代入
-
-console.log(price*140);
-console.log(price*140);
-
+score >= 80 ? console.log('Great'):console.log('OK....')
 
