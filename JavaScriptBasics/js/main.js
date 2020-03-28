@@ -1,6 +1,12 @@
 'use strict';
 
-const score = 80;
-
-score >= 80 ? console.log('Great'):console.log('OK....')
-
+for(let i = 1; i<= 10; i++){
+  // if(i === 4){
+  //   if(i % 3 === 0) {
+  //   continue;
+  // }
+  if(i === 4){
+    break;
+  }
+  console.log(i);
+}
